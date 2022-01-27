@@ -1,1 +1,29 @@
-# chess-tournament-system
+# Tournament system for chess players
+Microservice based application for chess tournaments.
+
+	
+## 💻 Technologies
+Project is created with:
+* ASP.NET 6
+* REST
+* RabbitMQ + MassTransit
+* Angular
+* Typescript
+* Bootstrap
+* Scss
+
+## 👨‍ Author
+
+[Georgi Vasilev](https://github.com/georgi-vasilev/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## 📝 License
+
+This project is licensed under MIT license.
+
+## 👨‍🚀 Show your support
+
+Give a ⭐ if you like this project!
