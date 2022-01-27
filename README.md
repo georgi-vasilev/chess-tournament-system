@@ -14,7 +14,8 @@ Project is created with:
 
 ## 👨‍ Author
 
-[Georgi Vasilev](https://github.com/georgi-vasilev/)
+[GitHub](https://github.com/georgi-vasilev/)
+[LinkedIn](https://www.linkedin.com/in/gvasilevv/)
 
 ## 🤝 Contributing
 
