@@ -15,6 +15,7 @@ Project is created with:
 ## 👨‍ Author
 
 [GitHub](https://github.com/georgi-vasilev/)
+
 [LinkedIn](https://www.linkedin.com/in/gvasilevv/)
 
 ## 🤝 Contributing
