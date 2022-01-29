@@ -7,7 +7,7 @@
         public string WinnerId { get; set; }
         public virtual Player Winner { get; set; }
 
-        public string DefeatedId { get; set; }
+        public string DefeatedPlayerId { get; set; }
         public virtual Player DefeatedPlayer { get; set; }
 
         public int GameId { get; set; }
