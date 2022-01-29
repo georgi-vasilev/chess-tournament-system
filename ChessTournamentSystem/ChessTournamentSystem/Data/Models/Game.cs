@@ -1,17 +1,18 @@
 ﻿namespace ChessTournamentSystem.Data.Models
 {
     using System;
+    using System.Collections.Generic;
 
     public class Game
     {
+        public Game()
+        {
+            this.Players = new HashSet<PlayerGame>();
+        }
+
         public int Id { get; set; }
 
-        public string WinnerId { get; set; }
-        public Player Winner { get; set; }
-
-        public string LoserId { get; set; }
-        public Player Loser { get; set; }
-
+        public ICollection<PlayerGame> Players { get; set; }
         public DateTime PlayDate { get; set; }
 
         public int MovesCount { get; set; }

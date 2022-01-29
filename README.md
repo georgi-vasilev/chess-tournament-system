@@ -5,7 +5,9 @@ Microservice based application for chess tournaments.
 ## 💻 Technologies
 Project is created with:
 * ASP.NET 6
+* Entityframework 6
 * REST
+* SwaggerUI
 * RabbitMQ + MassTransit
 * Angular
 * Typescript

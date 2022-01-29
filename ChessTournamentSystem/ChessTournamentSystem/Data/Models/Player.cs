@@ -2,28 +2,28 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     public class Player : ApplicationUser
     {
         public Player()
         {
             this.Id = Guid.NewGuid().ToString();
-            this.GamesPlayed = new HashSet<Game>();
+            this.Wins = new HashSet<PlayerGame>();
+            this.Defeats = new HashSet<PlayerGame>();
             this.Tournaments = new HashSet<PlayerTournament>();
         }
 
-        public decimal Rating { get; set; }
-
-        public int Wins { get; set; }
-
-        public int Loses { get; set; }
-
-        public int Draws { get; set; }
-
-        public ICollection<Game> GamesPlayed { get; set; }
-
         public ICollection<PlayerTournament> Tournaments { get; set; }
 
+        [InverseProperty("Winner")]
+        public ICollection<PlayerGame> Wins { get; set; }
+
+        [InverseProperty("DefeatedPlayer")]
+        public ICollection<PlayerGame> Defeats { get; set; }
+
         public int RankId { get; set; }
+
+        public Rank Rank { get; set; }
     }
 }
